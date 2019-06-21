@@ -50,7 +50,7 @@ public class OrderServiceTest {
                  .willRespondWith()
                  .status(200)
                  .body(newJsonBody((a) -> {
-                     a.stringValue("name", "paresh");
+                     a.stringValue("name", "rahul");
                      a.stringValue("email", "paresh@ee.com");
                      a.stringValue("address", "pune");
                  }).build()).toPact();
